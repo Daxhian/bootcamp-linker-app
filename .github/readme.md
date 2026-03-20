@@ -21,7 +21,7 @@ https://github.com/Daxhian/devops-bootcamp-backend
  Since the Docker images are stored in my public Docker Hub repository, the instructions in the Docker Compose file simply pull the images and start the containers. 
 
 - A database is required for the backend application to run, so I included a PostgreSQL database container in the Docker Compose file.
-![Alt text](images/docker_repository.png)
+![Alt text](/images/docker_repository.png)
 
 ### Steps to run the Conatiner using Docker compose
 1. Start the application stack (containers)
@@ -33,7 +33,7 @@ docker compose up -d
 ```
 docker compose logs -f
 ```
-![Alt text](images/app_running_docker_logs.png)
+![Alt text](/images/app_running_docker_logs.png)
 
 3. Stop the stack temporarily 
 ```
@@ -55,4 +55,4 @@ docker compose down
 ```
 http://localhost:3000
 ```
-![Alt text](images/app_running_on_browser.png)
+![Alt text](/images/app_running_on_browser.png)
